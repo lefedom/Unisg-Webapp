@@ -1,0 +1,29 @@
+
+/*DAS FÜR DE BENJ: LOGO OBE RÄCHTS
+header {
+    overflow: hidden;
+}
+
+.logo {
+    float: right;
+    width: 50vw;
+    height: auto;
+}
+*/
+header {
+    overflow: hidden;
+    background-color: #00802F;
+}
+
+.logo {
+    width: 100%;
+    float: center;
+    position: relative;
+    /*left: 25%;*/
+}
+
+h1 {
+    color: #FFF;
+    font-size: 24px; /*24px oder 5vw*/
+    text-align: center;
+}
