@@ -3,6 +3,7 @@
     border-color: #00802F;
     font-size: 18px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .btn-primary:active {
@@ -20,4 +21,9 @@
 .form-control {
     font-size: 18px;
 
+}
+
+p {
+    color: #000;
+    font-size: 18px;
 }

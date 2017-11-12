@@ -1,25 +1,25 @@
 <div>
-  
   <div class="col-lg-6">
-
       <div>
-          <h3>Eingabe</h3>
+          <h3>Deine Eingabe bitte:</h3>
       </div>
-
     <textarea [(ngModel)]="chatMessage" (keyup.enter)="addMessage(chatMessage)" class="form-control" rows="3" placeholder="type here"></textarea>
-  
-  <button (click)="addMessage(chatMessage)" [disabled]="!chatMessage" class="btn btn-primary">submit</button>
-</div>  
+    <button (click)="addMessage(chatMessage)" [disabled]="!chatMessage" class="btn btn-primary">Abschicken</button>
+  </div>  
 </div>
-  <!-- hier ein kleines beispiel für 2-way-binding
-  sehen was passiert wenn man ein text eingibt -->
 <div class="col-lg-6">
   <div>
-    <h3>Ihre Eingabe:</h3>
+    <h3>
+      Das hast Du eingegeben:
+    </h3>
   </div>
   <div>
-    <h3>{{chatMessage}}</h3>
+    <p>
+      {{chatMessage}}
+    </p>
+
+
+
   </div>
-  
 </div>
   

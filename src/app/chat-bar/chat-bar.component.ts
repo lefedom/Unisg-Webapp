@@ -14,8 +14,10 @@ export class ChatBarComponent implements OnInit {
   }
 
   public addMessage(message: string): void {
+        
     alert(message);
 
     this.chatMessage = '';
+    
   }
 }
